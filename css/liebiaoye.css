@@ -1,0 +1,104 @@
+/* 秒杀 */
+.sk{
+  position: absolute;
+  left: 190px;
+  top: -8px;
+  color: #d41a1a;
+  border-left: 1px solid #b1191a;
+  padding: 0 5px;
+}
+/* nav */
+.droplist{
+  height: 45px;
+}
+.droplist .d_title{
+  width: 300px;
+  height: 45px;
+  margin-left: 20px;
+}
+.droplist .d_title ul li{
+  float: left;
+  width: 100px;
+  font-size: 15px;
+  text-align: center;
+  font-weight: 700;
+  line-height: 45px;
+  padding: 0 20px;
+}
+.droplist .d_title ul li a{
+  color: black;
+}
+.navlist_items{
+  width: 800px;
+  height: 45px;
+}
+.navlist_items ul li{
+  float: left;
+  padding: 0 10px;
+  width: 100px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 48px;
+}
+.navlist_items ul li:last-child a::after{
+  content: '\e900';
+  font-family: 'icomoon';
+}
+/* main开始 */
+.main_title{
+  margin-top: 10px;
+  text-align: center;
+  background-color: #fbf9f9;
+  margin-bottom: 10px;
+}
+.main_title h3{
+  display: inline-block;
+  width: 300px;
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+.main_title h3::before{
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  background: url(../images/sprite.png) no-repeat;
+  opacity: .7;
+  margin: 0 10px;
+}
+.main_title h3::after{
+  content: '';
+  display: inline-block;
+  width: 50px;
+  height: 20px;
+  opacity: .7;
+  background: url(../images/sprite.png) no-repeat;
+  margin: 0 10px;
+}
+.content ul li{
+  float: left;
+  width: 240px;
+  height: 322px;
+  border: 1px dotted transparent;
+  padding: 20px 30px;
+}
+.content ul li:hover{
+  border: 1px dotted red;
+}
+.content ul li p{
+  margin-top: 20px;
+  text-indent: 1pc;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+.content ul li span{
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  color: red;
+  font-weight: 700;
+}

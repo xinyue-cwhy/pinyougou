@@ -1,0 +1,405 @@
+/* 首页 */
+.main{
+  width: 980px;
+  height: 455px;
+  margin: 10px 0px 0px 220px;
+}
+.main .focus{
+  position: relative;
+  width: 721px;
+  height: 455px;
+  float: left;
+}
+.main .focus .left_btn,
+.main .focus .right_btn{
+  position: absolute;
+  top: 50%;
+  margin-top: -20px;
+  width: 24px;
+  height: 40px;
+  background: rgba(0, 0, 0, .3);
+  text-align: center;
+  line-height: 40px;
+  font-size: 18px;
+  color: white;
+}
+.main .focus .right_btn{
+  right: 0;
+  border-radius: 50% 0 0 50%;
+}
+.main .focus .left_btn{
+  border-radius: 0 50% 50% 0 ;
+}
+.main .focus .circle {
+  position: absolute;
+  bottom: 2px;
+  left: 325px;
+}
+.main .focus .circle li {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  margin: 0 3px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.main .focus .circle .check{
+  background-color: #fff;
+}
+.main .newsflash{
+  float: right;
+  height: 455px;
+  width: 254px;
+}
+.main .newsflash .n_top{
+  height: 165px;
+  border: 1px #e4e4e4 solid;
+}
+.main .newsflash .n_top .n_hd{
+  height: 33px;
+  line-height: 33px;
+  padding: 0 15px;
+  border-bottom: 1px dotted #e4e4e4;
+}
+.main .newsflash .n_top .n_hd h5{
+  font-size: 14px;
+  font-weight: 400;
+}
+.main .newsflash .n_top .n_hd a::after{
+  content: '\e902';
+  font-family: 'icomoon';
+}
+.main .newsflash .n_top .n_dd ul {
+  padding-top: 5px;
+}
+
+.main .newsflash .n_top .n_dd ul li {
+  height: 24px;
+  line-height: 24px;
+  padding-left:15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.main .newsflash .n_top .n_dd ul li a {
+  font-size: 12px;
+  color: #666;
+}
+
+.main .newsflash .n_top .n_dd ul li a:hover {
+  text-decoration: underline;
+}
+.main .newsflash .n_center{
+  height: 213px;
+  border-left: 1px solid #e4e4e4;
+  border-right: 1px solid #e4e4e4;
+}
+
+.main .newsflash .n_center ul li:nth-child(4n){
+  border-right: 0;
+}
+.main .newsflash .n_center ul li{
+  float: left;
+  width: 63px;
+  height: 71px;
+  text-align: center;
+  border-right: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
+}
+.main .newsflash .n_center ul li i{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+.main .newsflash .n_center ul .hotitem{
+  position: relative;
+}
+.main .newsflash .n_center ul li .hot{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 12px;
+  height: 15px;
+  background: url(../images/jian.jpg) no-repeat;
+}
+.main .newsflash .n_center ul li:first-child i{
+  background: url(../images/jinglingtu.png) no-repeat -17px -16px;
+}
+.main .newsflash .n_center ul li:nth-child(2) i{
+  background: url(../images/jinglingtu.png) no-repeat -78px -16px;
+}
+.main .newsflash .n_center ul li:nth-child(3) i{
+  background: url(../images/jinglingtu.png) no-repeat -141px -16px;
+}
+.main .newsflash .n_center ul li:nth-child(4) i{
+  background: url(../images/jinglingtu.png) no-repeat -205px -16px;
+}
+.main .newsflash .n_center ul li:nth-child(5) i{
+  background: url(../images/jinglingtu.png) no-repeat -17px -88px;
+}
+.main .newsflash .n_center ul li:nth-child(6) i{
+  background: url(../images/jinglingtu.png) no-repeat -78px -88px;
+}
+.main .newsflash .n_center ul li:nth-child(7) i{
+  background: url(../images/jinglingtu.png) no-repeat -141px -88px;
+}
+.main .newsflash .n_center ul li:nth-child(8)  i{
+  background: url(../images/jinglingtu.png) no-repeat -205px -88px;
+}
+.main .newsflash .n_center ul li:nth-child(9) i{
+  background: url(../images/jinglingtu.png) no-repeat -17px -158px;
+}
+.main .newsflash .n_center ul li:nth-child(10) i{
+  background: url(../images/jinglingtu.png) no-repeat -78px -158px;
+}
+.main .newsflash .n_center ul li:nth-child(11) i{
+  background: url(../images/jinglingtu.png) no-repeat -141px -158px;
+}
+.main .newsflash .n_center ul li:last-child i{
+  background: url(../images/jinglingtu.png) no-repeat -205px -158px;
+}
+.main .newsflash .n_bottom{
+  margin-top: 1px;
+}
+.main .newsflash .n_bottom img{
+  width: 254px;
+}
+/* 换一批 */
+.huanyipi{
+  margin-top: 10px;
+  line-height: 20px;
+  height: 20px;
+}
+.huanyipi .text{
+  cursor: pointer;
+  font-size: 13px;
+}
+.huanyipi .text:hover{
+  color: red;
+}
+.huanyipi .text::before{
+  content: '\e902';
+  font-family: 'icomoon';
+}
+/* 今日推荐 */
+.today{
+  height: 163px;
+  margin-top: 10px;
+}
+.today .today_fl{
+  width: 200px;
+  height: 163px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: skyblue;
+}
+.today .today_fl h3{
+  margin-top: 10px;
+  font-size: 18px;
+  color: #fff;
+  font-weight: normal;
+}
+.today .today_fr{
+  width: 1000px;
+  height: 163px;
+  background-color: #ebebeb;
+}
+.today .today_fr ul li{
+  float: left;
+  width: 249px;
+  height: 145;
+  margin-top: 10px;
+}
+.today .today_fr ul li:first-child{
+  border-right: 1px solid #dfdfdf;
+}
+.today .today_fr ul li a img{
+  vertical-align: middle;
+  width: 248px;
+  height: 143px;
+}
+.miaosha{
+  width: 1200px;
+  height: 260px;
+  margin-top: 10px;
+}
+.miaosha .m_left{
+  position: relative;
+  width: 200px;
+  height: 260px;
+  background: url(../images/miaosha.png) no-repeat;
+  background-color: #df2b20;
+  background-position: center;
+}
+.miaosha .m_left h1{
+  position: absolute;
+  top: 36px;
+  left: 54px;
+  font-weight: normal;
+  color: #fff;
+}
+.miaosha .m_right{
+  width: 1000px;
+  height: 260px;
+  border-bottom: 1px solid #e4e4e4;
+}
+.miaosha .m_right ul li{
+  float: left;
+  width: 248px;
+  height: 240px;
+  margin: 10px 0;
+  text-align: center;
+  padding-top: 20px;
+}
+.miaosha .m_right ul li:nth-child(-n+3){
+  border-right: 1px solid #e4e4e4;
+}
+.miaosha .m_right div{
+  display: inline-block;
+  width: 747px;
+  height: 260px;
+}
+.miaosha .m_right ul li h6{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: normal;
+}
+.miaosha .m_right ul li .price{
+  width: 100%;
+  height: 32px;
+  text-align: center;
+}
+.miaosha .m_right ul li .price .box{
+  display: inline-block;
+  width: 172px;
+  height: 32px;
+  line-height: 30px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  border: 1px solid red;
+}
+.miaosha .m_right ul li .price .box .newprice{
+  position: relative;
+  width: 90px;
+  height: 30px;
+  background-color: red;
+}
+.miaosha .m_right ul li .price .box .sanjiao{
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  font-size: 0;
+  border-color: transparent #fff transparent transparent;
+  border-style: solid;
+  border-width: 30px 10px 0px 0px;
+}
+.miaosha .m_right ul li .price .box .oldprice{
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  color: silver;
+  text-decoration: line-through;
+}
+.miaosha .m_right .lunbotu li img{
+  width: 120;
+  height: 120px;
+}
+.miaosha .m_right .lunbotu li{
+  width: 253px;
+}
+.miaosha .m_right .lunbotu li .l_title{
+  font-size: 14px;
+  color: silver;
+  margin-top: 15px;
+}
+.miaosha .m_right .lunbotu li .l_text{
+  font-size: 15px;
+}
+.miaosha .m_right .lunbotu li .l_login{
+  display: inline-block;
+  color: red;
+  margin-top: 10px;
+  width: 70px;
+  height: 20px;
+  border: 1px solid red;
+  border-radius: 10px;
+}
+.miaosha .m_right .lunbotu li .l_login::after{
+  content: '\e902';
+  font-family: 'icomoon';
+}
+/* 电梯模块开始 */
+/* 家用电器 */
+.floor{
+  margin-top: 30px;
+}
+.hu_top{
+  height: 30px;
+  border-bottom: 2px solid #c81623;
+}
+.hu_top h5{
+  float: left;
+  color: #c81623;
+  font-size: 18px;
+}
+.hu_top .hu_list{
+  float: right;
+}
+.hu_top ul li{
+  float: left;
+  line-height: 30px;
+}
+.hu_top ul li a{
+  margin: 0 15px;
+}
+.hu_main{
+  margin-bottom: 30px;
+  height: 361px;
+  background-color: #f9f9f9;
+}
+.hu_main .main_1{
+  width: 209px;
+}
+.hu_main .main_1 ul li{
+  float: left;
+  width: 86px;
+  height: 33px;
+  line-height: 32px;
+  text-align: center;
+  border-bottom: 1px solid #e4e4e4;
+  margin-left: 10px;
+}
+.hu_main .main_2{
+  width: 329px;
+}
+.hu_main .main_3{
+  width: 220px;
+  border: 1px solid #e4e4e4;
+}
+.hu_main .main_4{
+  width: 220px;
+  border: solid 1px #e4e4e4;
+}
+.hu_main .main_5{
+  width: 222px;
+  border: solid 1px #e4e4e4;
+}
+.hu_main a{
+  display: block;
+}
+.hu_main .dd{
+  border-bottom: solid 1px #e4e4e4;
+}
