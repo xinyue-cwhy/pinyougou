@@ -100,7 +100,7 @@ var timer = setInterval(() => {
 var hour = document.querySelector('.h');
 var min = document.querySelector('.m');
 var sec = document.querySelector('.s');
-var inputTime = +new Date('2021-2-27 21:00:00');
+var inputTime = +new Date('2021-3-5 21:00:00');
 conutDown();//解决刷新页面出现短暂空白
 setInterval(conutDown, 1000);
 function conutDown() {
