@@ -102,3 +102,37 @@
   color: red;
   font-weight: 700;
 }
+/* tab开始 */
+.tab .tabtitle{
+  height: 47px;
+  border-bottom: 1px solid #e4e4e4;
+  line-height: 47px;
+  padding: 0 250px;
+}
+.tab .tabtitle ul li{
+  float: left;
+  margin: 0 20px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.tab .tabtitle ul .tabtitle_first{
+  color: #d41a1a;
+}
+.tab .tabcontent h6{
+  padding-left: 42px;
+  font-size: 15px;
+  margin: 20px 0;
+}
+.tab .tabcontent ul li{
+  float: left;
+  width: 200px;
+  height: 18px;
+  padding-left: 42px;
+  margin-bottom: 5px;
+}
+.tab .tabcontent .tabcontent_main{
+  display: none;
+}
+.tab .tabcontent .block{
+  display: block;
+}

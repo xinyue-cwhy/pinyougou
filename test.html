@@ -7,31 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .news {
-      background-color: gray;
-      border: solid 1px black;
-      overflow: hidden;
-      *zoom: 1;
-    }
-
-    .news img {
-      float: left;
-    }
-
-    .news p {
-      float: right;
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: red;
     }
   </style>
 </head>
 
 <body>
-  <div class="news">
-    <img src="news-pic.jpg" />
-    <p>some text</p>
-  </div>
-  <div class="cla">
-    123445
-  </div>
+  <div class="i"></div>
+  <script>
+    var div = document.querySelector('div');
+    div.onclick = function () {
+      div.style.backgroundColor = 'purple';
+      div.i.width = '300px';
+    }
+  </script>
 </body>
 
 </html>
