@@ -100,6 +100,23 @@
             <li><a href="#">彩票</a>、<a href="#">旅行</a>、<a href="#">充值</a>、<a href="#">票务</a></li>
             <li><a href="#">理财</a>、<a href="#">众筹</a>、<a href="#">白条</a>、<a href="#">保险</a></li>
           </ul>
+          <div class="dd_content_list">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+          </div>
         </div>
       </div>
       <div class="navitems fl">
@@ -555,6 +572,19 @@
   <!-- 底部模块制作结束 -->
   <script src="js/index.js"></script>
   <script src="js/animate.js"></script>
+  <!-- 新增---------------------------------- -->
+  <script src="./js/jQuery.js"></script>
+  <script>
+    $('.dd li').mouseover(function () {
+      $('.dd_content_list').show();
+      var index = $(this).index()
+      $('.dd_content_list div').eq(index).show()
+      $('.dd_content_list div').eq(index).siblings().hide()
+    })
+    $('.dd').mouseleave(function () {
+      $('.dd_content_list').hide();
+    })
+  </script>
 </body>
 
 </html>
