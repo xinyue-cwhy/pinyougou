@@ -291,3 +291,20 @@
 .copyright{
   line-height: 20px;
 }
+
+.fixedtool{
+  position: fixed;
+  display: none;
+  top: 183px;
+  left: 0;
+  border-right: 1px solid slategrey;
+}
+.fixedtool .current{
+  background-color: red;
+  color: white;
+}
+.fixedtool li{
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
